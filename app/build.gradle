@@ -2,6 +2,12 @@ plugins { id 'com.android.application' }
 android {
     compileSdk 34
     namespace 'com.sideral.clock'
-    defaultConfig { applicationId "com.sideral.clock"; minSdk 24; targetSdk 34; versionCode 1; versionName "1.0" }
+    defaultConfig {
+        applicationId "com.sideral.clock"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
     buildTypes { release { minifyEnabled false } }
 }
